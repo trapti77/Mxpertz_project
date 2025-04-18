@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="app-header">
       <div className="logo">
-        <span className="logo-icon">🧠</span>
+        <span className="logo-icon"><img src="" alt=''></img></span>
         <Link to="/">BrainyLingo</Link>
       </div>
       <nav className="nav-links">

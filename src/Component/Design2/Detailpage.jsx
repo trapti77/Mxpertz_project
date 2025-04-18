@@ -48,19 +48,19 @@ const StoryDetailPage = () => {
             className={`tab ${activeTab === 'word-explorer' ? 'active' : ''}`}
             onClick={() => handleTabClick('word-explorer')}
           >
-            <span className="tab-icon">🔍</span> Word Explorer
+            <span className="tab-icon"><img src="" alt=''></img></span> Word Explorer
           </button>
           <button 
             className={`tab ${activeTab === 'story-adventure' ? 'active' : ''}`}
             onClick={() => handleTabClick('story-adventure')}
           >
-            <span className="tab-icon">📚</span> Story Adventure
+            <span className="tab-icon"><img src="" alt=''></img></span> Story Adventure
           </button>
           <button 
             className={`tab ${activeTab === 'brain-quest' ? 'active' : ''}`}
             onClick={() => handleTabClick('brain-quest')}
           >
-            <span className="tab-icon">🧠</span> Brain Quest
+            <span className="tab-icon"><img src="" alt=''></img></span> Brain Quest
           </button>
         </div>
         

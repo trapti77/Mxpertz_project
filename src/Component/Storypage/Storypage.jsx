@@ -42,7 +42,7 @@ const HomePage = () => {
       );
       setFilteredStories(filtered);
     }
-    setCurrentPage(0); // reset to first page when filter changes
+    setCurrentPage(0); 
   }, [activeFilter, stories]);
 
   const handleFilter = (status) => {
@@ -79,28 +79,28 @@ const HomePage = () => {
             style={{ backgroundColor: '#007bff', color: 'white' }}
             onClick={() => handleFilter('new')}
           >
-            🆕 New
+             New
           </button>
           <button
             className={`filter-btn ${activeFilter === 'in progress' ? 'active' : ''}`}
             style={{ backgroundColor: '#ffc107', color: 'black' }}
             onClick={() => handleFilter('in progress')}
           >
-            🔄 In Progress
+            In Progress
           </button>
           <button
             className={`filter-btn ${activeFilter === 'completed' ? 'active' : ''}`}
             style={{ backgroundColor: '#28a745', color: 'white' }}
             onClick={() => handleFilter('completed')}
           >
-            ✅ Completed
+            Completed
           </button>
           <button
             className="filter-btn"
             style={{ backgroundColor: '#6c757d', color: 'white' }}
             onClick={() => handleFilter('all')}
           >
-            ❌ Clear All
+             Clear All
           </button>
         </div>
 
